@@ -1,23 +1,26 @@
-# Dataset
+Download
 
-This project uses fMRI time-series data stored in the `rois_aal` directory.
+1. fMRI Data
 
-## Download
+Download the "rois_aal" folder from Google Drive:
 
-Download the `rois_aal` dataset from the following link:
+"Download rois_aal" (https://drive.google.com/file/d/19MvA3VDgXzv9KyyYDljTH1xss3vcmSyz/view?usp=drive_link)
 
-[Download rois_aal Dataset](https://drive.google.com/file/d/19MvA3VDgXzv9KyyYDljTH1xss3vcmSyz/view?usp=drivesdk)
+2. Phenotypic Data
 
-## Required Structure
+Download the "Phenotypic_V1_0b_preprocessed1.csv" file from Google Drive:
 
-After downloading the dataset, place the `rois_aal` folder directly in the project root.
+"Download Phenotypic_V1_0b_preprocessed1.csv" (https://drive.google.com/file/d/1TLqFhWz6oEBP9T_TSWYlK6GURRm4d72I/view?usp=sharing)
 
-The project structure should be:
+After downloading both files, place them directly in the project root.
 
-```text
+The required structure is:
+
 AD-Graph-Based-Classification/
 ├── rois_aal/
 ├── Phenotypic_V1_0b_preprocessed1.csv
 ├── stage1.py
 ├── stage2.py
 └── stage3.py
+
+Stage 1 and Stage 2 use the "rois_aal" folder. Stage 3 uses "Phenotypic_V1_0b_preprocessed1.csv".
