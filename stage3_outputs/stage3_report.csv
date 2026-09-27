@@ -1,0 +1,9 @@
+item,value
+number_of_people,957
+autism_count,460
+control_count,497
+accuracy,0.572917
+true_autism,42
+false_control,50
+false_autism,32
+true_control,68

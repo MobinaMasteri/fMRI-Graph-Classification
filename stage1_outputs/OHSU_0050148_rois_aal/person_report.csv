@@ -1,0 +1,10 @@
+item,value
+selected_threshold,0.6
+threshold_graph_edges,366
+strongest_roi_1,52
+strongest_roi_2,53
+strongest_correlation,0.939531
+weakest_roi_1,45
+weakest_roi_2,103
+weakest_correlation,0.000034
+threshold_graph_density,0.054873
